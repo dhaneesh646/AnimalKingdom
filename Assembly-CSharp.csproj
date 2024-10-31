@@ -1,0 +1,1359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4d2deb51-2618-c29f-7bcc-ea73f7b8e586}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_25;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\AudioRecordingDeviceManager.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Canvas\Scripts\JMRCanvasUtility.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoAudioExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\ScaleLerper.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Scripts\JMRUISlider.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\MicrophoneInput.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Utilities\JMRConstantThemeSystem.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraChannel.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\native\IAgoraGamingRtcEngineNative.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\JMRDialogAbstractBase.cs" />
+     <Compile Include="Assets\JMRSDK\UI\Scripts\JMRDiveBackButtonHandler.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoInteractionSourceGetterExample.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraCallbackQueue.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Effects\JMRContentAnimations.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2\JMRUITertiaryButton.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Enums\Enums.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Utilities\JMRKeyboardSpawner.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\Interfaces\IMessageHandler.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoMaster.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\ScrollingUV.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\AudioPlaybackDeviceManager.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Utilities\JMRUIInteractable.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Managers\JMRToolkitManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\JMRVirtualKeyBoard.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Interfaces\IConfigData.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoSceneSwitcher.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI ProgressBar\Scripts\JMRProgressIndicatorState.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Scripts\JMRUIRadioButton.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\DialogueBoxData.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoLicenseValidation.cs" />
+     <Compile Include="Assets\Scripts\MoveForwardScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Interfaces\IActionState.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoParallelExample.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoToolkit.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Scripts\JMRSliderTint.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Scripts\JMRUIPrimaryInputField.cs" />
+     <Compile Include="Assets\Scripts\AnimalDetails.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoGazeExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Managers\ThemeConfigurator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Scripts\JMRUIPrimaryRadioButtonGroup.cs" />
+     <Compile Include="Assets\Scripts\AnswerScript.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataClass\JMRThemeIconSet.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\rawData\AudioRawDataManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\ScreenCaptureManager.cs" />
+     <Compile Include="Assets\Scripts\PanelActivator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2\JMRUIPrimaryButton.cs" />
+     <Compile Include="Assets\Scripts\QuizMAnager.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Helpers\JMRThemeConfigHelper.cs" />
+     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\CameraMovementManager.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts\JMR2DDropDown.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts\JMRUICheckBoxButton.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\AudioVoiceVisualizer.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI ScrollBar\Scripts\JMRScrollRect.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\videoRender\VideoRender.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Scripts\JMRUIRadioButtonGroup.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts\JMRUIPrimaryDropDown.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts\JMRUICheckBoxButtonGroup.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts\JMRDropDownItem.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraChannelCallback.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Handlers\JMRBaseThemeAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts\JMRUIPrimaryCheckBoxButton.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Handlers\JMRThemeAnimator.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraBase.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\DialogueButtonType.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoParallelTracking.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts\JMRUIPrimaryCheckBoxButtonGroup.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders\Scripts\JMRStandardShaderUtility.cs" />
+     <Compile Include="Assets\SceneManger.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Scripts\CopyTransform.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoTrackingExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\PlayerPrefsManager.cs" />
+     <Compile Include="Assets\Scripts\SkyboxAddition.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataContainers\SO_ThemeData.cs" />
+     <Compile Include="Assets\JMRSDK\Screencast\ScreenCastHandler.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\MediaRecorder.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Scripts\JMRUIPrimarySearchField.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoMultiSceneRayCastCameraSetter.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\JMRDialogueBoxButton.cs" />
+     <Compile Include="Assets\Scripts\AnimalDetailsManager.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager\VideoDeviceManager.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoDwellAndGaze.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataContainers\JMRThemePreferences.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AudioEffectManager.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataContainers\SO_GlobalData.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Utilities\JMRLogHandler.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRRecenterExampleDemo.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Scripts\JMRInputField.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\AudioSpectrumData.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\JMRUIPrimaryDialogueBox.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\JMRUIButton.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoPlatformExample.cs" />
+     <Compile Include="Assets\Triangularity\ColorfulCity\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\plyerfollower.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\IKeyboardInput.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\KeySwitcherHelper.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\JMRKeyboardPreviewField.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataClass\ThemeSystemData.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoInteractionGettersExample.cs" />
+     <Compile Include="Assets\JMRSDK\Example\IPD_Panel\IPD_Scripts\DemoIPDUpdater.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts\IDropDownItem.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataClass\ThemeSchemesData.cs" />
+     <Compile Include="Assets\Scripts\MobileFirstPersonController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\MissionIndicator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Tooltip\Scripts\JMRToolTip.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Image\Scripts\JMRImageView.cs" />
+     <Compile Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Scripts\QuestionandAnswers.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle\Scripts\JMRUIPrimaryToggleButton.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoVoiceExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\Commands.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Interfaces\IThemeHandler.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraCallback.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Handlers\JMRColorTheme.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\JMRDialogueBox.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\observer\MetaDataObserver.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts\AudioVisualizer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoCameraExample.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoLocalInteractionExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Interfaces\IThemeAnimator.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\videoRender\VideoSurface.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\AgoraGamingRtcEngine.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\rawData\VideoRawDataManager.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoGlobalInteractionExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\Manipulation\Scripts\JMRManipulation.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts\JMRUIPrimaryDropDownItem.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts\JMRUIPrimaryDialogueBoxError.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoDeviceExample.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoBezierExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2\JMRUISecondaryButton.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoManipulationExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Scripts\JMRUISliderSwipeControl.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoInteractionExample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI ProgressBar\Scripts\JMRProgressIndicator.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraLog.cs" />
+     <Compile Include="Assets\Scripts\OffScreenIndicator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataContainers\JMRThemeColorSet.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle\Scripts\JMRUIToggle.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\JMRVirtualKeyboardKeys.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Utilities\UIUtilities.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\AxisSlider.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoTestGlobalBackAction.cs" />
+     <Compile Include="Assets\Scripts\MoveObject.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts\JMRCheckBoxButtonAnimator.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\JMRGazeAndDwellKeyBoardSupport.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoLocalRigExample.cs" />
+     <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoDisplayExample.cs" />
+     <Compile Include="Assets\InstructionPannel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Scripts\JMRSearchField.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraCallbackObject.cs" />
+     <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\observer\PacketObserver.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Scripts\JMRUIPrimaryRadioButton.cs" />
+     <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2\JMRUITertiaryButtonGroup.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\CustomDockButton" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Image" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle\Animation" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\icons" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\Right.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button" />
+     <Folder Include="Assets\JMRSDK\UI\Resources\Art\Recenter icon" />
+     <Folder Include="Assets\Images" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation\V2\JMRDialogueBoxError" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Animation\CheckBox V2" />
+     <None Include="Assets\JMRSDK\Core\Scripts\JMRSDK.deps.json" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\VirtualKeyboard" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Shaders" />
+     <Folder Include="Assets\Animals\Wolf\Textures 1" />
+     <Folder Include="Assets\JMRSDK\Input\Scripts" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\JMRSDK\Example\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Documentation\ColorfulSchemeManager\styles" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Scripts" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\Standard.shader" />
+     <Folder Include="Assets\Animals\Rhino\Materials" />
+     <Folder Include="Assets\JMRSDK\Input\Features\LaserPointer" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataClass" />
+     <Folder Include="Assets\JMRSDK\Screencast" />
+     <Folder Include="Assets\JMRSDK\UI\Scripts" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Materials1" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Image\Scripts" />
+     <None Include="Assets\JMRSDK\Input\Features\Cursor\Shaders\Cursor.shader" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation" />
+     <Folder Include="Assets\Snowed Fence\FBX\fence_double.fbm" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI ProgressBar" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\TertiaryButton" />
+     <None Include="Assets\JMRSDK\HoloToolKit MIT License.txt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders" />
+     <Folder Include="Assets\JMRSDK\UI\Resources\Prefab\CustomButtons" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Textures" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\PrimaryButton" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX" />
+     <None Include="Assets\JMRSDK\Core\Plugins\Android\ReadMe.txt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\JMRButton" />
+     <Folder Include="Assets\AgoraEngine\Plugins\x86" />
+     <Folder Include="Assets\JMRSDK" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Font" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Animals\fox\Materials" />
+     <Folder Include="Assets\Animals\jaguar\textures" />
+     <Folder Include="Assets\Animals\Rhino\textures" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Animation" />
+     <Folder Include="Assets\Animals\jaguar\source" />
+     <Folder Include="Assets\JMRSDK\UI\Resources" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Documentation\Source_files" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\observer" />
+     <Folder Include="Assets\Animals\jaguar" />
+     <Folder Include="Assets\Animals\lion-animation-low-poly\textures" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Textures" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\Radio Button" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Documentation\ColorfulSchemeManager\api" />
+     <Folder Include="Assets\JMRSDK\Core\Plugins" />
+     <Folder Include="Assets\Triangularity" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Art" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Icon" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Effects" />
+     <Folder Include="Assets\Animals\fox\source" />
+     <Folder Include="Assets\Animals\white-tiger-rigged-animated\Materials" />
+     <Folder Include="Assets\JMRSDK\Example\Scenes" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\Manipulation\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Animations\JMRDialogueBox" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\UIButton" />
+     <Folder Include="Assets\ModularFirstPersonController" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Interfaces" />
+     <None Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders\Shaders\UI_Master_Shader.shader" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Models\Colliders" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Enums" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\KeyAnimation\KeyboardText" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Controller\Models\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader\Material" />
+     <Folder Include="Assets\ModularFirstPersonController\FirstPersonController" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Font\font_JioType" />
+     <Folder Include="Assets\Animals\model-31a-timber-rattlesnake" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider" />
+     <Folder Include="Assets\Animals" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Animation\V2\PrimaryDropDown" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Textures" />
+     <Folder Include="Assets\_TerrainAutoUpgrade" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI ScrollBar\Scripts" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Fonts" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Animations" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Shaders" />
+     <Folder Include="Assets\Prefabs" />
+     <None Include="Assets\JMRSDK\ReadMe.txt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Animation\V2\PrimaryDropDownItem" />
+     <Folder Include="Assets\Animals\zebramotions" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Scenes" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle\Animation\V2" />
+     <Folder Include="Assets\JMRSDK\Core\Scripts" />
+     <Folder Include="Assets\JMRSDK\UI" />
+     <Folder Include="Assets\JMRSDK\Animations\ResetPointer\DontShowToggle" />
+     <Folder Include="Assets\JMRSDK\Animations" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Animation\V2" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Material" />
+     <Folder Include="Assets\JMRSDK\Core\Plugins\Android\JMRServices" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Utilities" />
+     <Folder Include="Assets\JMRSDK\UI\Resources\Prefab" />
+     <Folder Include="Assets\Free Stylized Skybox\Panoramic" />
+     <Folder Include="Assets\JMRSDK\Example\IPD_Panel" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\ProBuilder Data" />
+     <Folder Include="Assets\JMRSDK\Example\Materials" />
+     <Folder Include="Assets\JMRSDK\Animations\_PanelAnimation" />
+     <Folder Include="Assets\AgoraEngine\Plugins" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Animations\JMRButton" />
+     <Folder Include="Assets\JMRSDK\UI\Resources\Art\Recenter icon\Material" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits" />
+     <Folder Include="Assets\Animals\Wolf\Materials" />
+     <Folder Include="Assets\Animals\Rhino\Animator" />
+     <Folder Include="Assets\JMRSDK\Core\Plugins\DOTween" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\Animals\Wolf\Animator" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataContainers" />
+     <Folder Include="Assets\Snowed Fence" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Battery" />
+     <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\HorizontalGroup" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders\Shaders" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders\Scripts" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Sprite Sheet" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Scripts\libs" />
+     <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Meshes" />
+     <Folder Include="Assets\Animals\white-tiger-rigged-animated\textures" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\PhoneController" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton" />
+     <Folder Include="Assets\AgoraEngine" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\Controller" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Scripts" />
+     <Folder Include="Assets\JMRSDK\Core\Prefabs" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\videoRender" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\Manipulation" />
+     <Folder Include="Assets\JMRSDK\Core\Plugins\Android" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\CloseTxt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader\Shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Animation\V2" />
+     <Folder Include="Assets\Animals\lion-animation-low-poly\source" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Animations" />
+     <Folder Include="Assets\JMRSDK\Core" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Animation\Group" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\deviceManager" />
+     <None Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader\Shader\ControllerRim.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\ScriptableObjects" />
+     <Folder Include="Assets\Triangularity\ColorfulCity" />
+     <Folder Include="Assets\Animals\white-tiger-rigged-animated" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Prefabs\V2" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\KeyAnimation" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Scripts" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\Interfaces" />
+     <Folder Include="Assets\JMRSDK\Core\Audio" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\Left.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Canvas\Scripts" />
+     <None Include="Assets\JMRSDK\Input\Features\LaserPointer\Shader\Gaze2DShader.shader" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\DeviceAPI" />
+     <None Include="Assets\Free Stylized Skybox\ReadMe.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Handlers" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\Animals\Rhino" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Texture" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Prefabs" />
+     <Folder Include="Assets\Free Stylized Skybox\CubeMap\Materials" />
+     <Folder Include="Assets\Scenes\Materials" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Materials_final" />
+     <Folder Include="Assets\Snowed Fence\Materials" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Models" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown" />
+     <Folder Include="Assets\JMRSDK\Input\Scripts\Utilities\Data" />
+     <Folder Include="Assets\JMRSDK\Input\Scripts\Utilities" />
+     <Folder Include="Assets\JMRSDK\UI\SpriteAssets" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\BarrelDistortion.shader" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraTools" />
+     <Folder Include="Assets\Free Stylized Skybox\CubeMap\Textures" />
+     <Folder Include="Assets\Snowed Fence\FBX\fence_gate.fbm" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Helpers" />
+     <Folder Include="Assets\AgoraEngine\Plugins\x86_64" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Prefabs" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\ProgressBar" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\Tracking" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box" />
+     <Folder Include="Assets\Free Stylized Skybox\Panoramic\Textures" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\Dialogue" />
+     <Folder Include="Assets\JMRSDK\Input\Features\LaserPointer\Shader" />
+     <Folder Include="Assets\JMRSDK\Emulator\Data" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\PhoneController\XrayGradient" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Materials" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\JioGlassFOV.shader" />
+     <Folder Include="Assets\Animals\sable-antelope-low-poly" />
+     <Folder Include="Assets\Images\AnimalImages" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\Spritesheet" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Tooltip" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Textures" />
+     <Folder Include="Assets\JMRSDK\Input" />
+     <Folder Include="Assets\JMRSDK\Example" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\RadioButtonV2" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\RightHID.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\VerticalGroup" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Materials" />
+     <Folder Include="Assets\Free Stylized Skybox\Panoramic\Materials" />
+     <None Include="Assets\JMRSDK\Core\Resources\Shaders\LeftHID.shader" />
+     <Folder Include="Assets\Animals\sable-antelope-low-poly\textures" />
+     <Folder Include="Assets\JMRSDK\Emulator" />
+     <Folder Include="Assets\Animals\Wolf\textures" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Controller" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\3D" />
+     <Folder Include="Assets\Animals\white-tiger-rigged-animated\source" />
+     <Folder Include="Assets\Animals\Wolf" />
+     <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Prefabs" />
+     <Folder Include="Assets\Animals\sable-antelope-low-poly\source" />
+     <Folder Include="Assets\Animals\lion-animation-low-poly\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Animation\V2\CloseTxt" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
+     <Folder Include="Assets\JMRSDK\Example\IPD_Panel\IPD_Scripts" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\Companion System" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\native" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle" />
+     <None Include="Assets\JMRSDK\Core\Resources\Models\PhoneController\XrayGradient\XrayGradient_Opaque.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\VIrtualKeyboard" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Animations\JMRDialogueBoxError" />
+     <Folder Include="Assets\JMRSDK\Dialogue\Art" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Animation" />
+     <Folder Include="Assets\JMRSDK\UI\Resources\Art" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Models" />
+     <Folder Include="Assets\JMRSDK\Core\Prefabs\Pointers" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Animation" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Documentation\ColorfulSchemeManager" />
+     <None Include="Assets\Animals\Wolf\Readme.txt" />
+     <Folder Include="Assets\Animals\fox" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Controller\Models" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Slider\Animation" />
+     <Folder Include="Assets\JMRSDK\Core\Plugins\Android\JMRNetworkConnection" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Animation\V2" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\Keyboard" />
+     <None Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Shaders\DistortTex_Circular.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Tooltip\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets" />
+     <Folder Include="Assets\JMRSDK\Animations\RecenterProgress" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Shaders" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Documentation" />
+     <None Include="Assets\JMRSDK\Example\Materials\VideoUnlitShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI ProgressBar\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Scripts" />
+     <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018" />
+     <None Include="Assets\TextMesh Pro\Fonts\License.txt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation\V2\JMRDialogueBox" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Textures\Prototype Grid" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Materials" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Materials" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Scripts" />
+     <Folder Include="Assets\Free Stylized Skybox" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Animation" />
+     <Folder Include="Assets\Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\HorizontalButton" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation\V2" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene" />
+     <Folder Include="Assets\Astra113 Assets\Terrain Layers" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources" />
+     <Folder Include="Assets\JMRSDK\Input\Features" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\Animals\zebramotions\textures" />
+     <Folder Include="Assets\JMRSDK\Core\Resources" />
+     <Folder Include="Assets\Triangularity\ColorfulCity\Prefabs" />
+     <Folder Include="Assets\JMRSDK\Animations\ResetPointer" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Cursor" />
+     <Folder Include="Assets\Animals\zebramotions\Materials" />
+     <Folder Include="Assets\Snowed Fence\FBX" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries" />
+     <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Textures" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\JMRSDK\Dialogue" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\CustomDockButton\Tooltip" />
+     <Folder Include="Assets\Animals\zebramotions\source" />
+     <Folder Include="Assets\Animals\fox\textures" />
+     <Folder Include="Assets\AgoraEngine\Scripts" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\PlatformAPI" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
+     <Folder Include="Assets\Snowed Fence\FBX\fence_single.fbm" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\KeyAnimation\V2\SpaceBarAnimation" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI ScrollBar" />
+     <Folder Include="Assets\JMRSDK\Input\Features\LaserPointer\Material" />
+     <Folder Include="Assets\Astra113 Assets" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
+     <Folder Include="Assets\Astra113 Assets\Textures" />
+     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Materials\Prototype Grid" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\RadioButtonItem" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\JMRSDK\UI\Scripts\JMRSDKUI.deps.json" />
+     <Folder Include="Assets\Animals\lion-animation-low-poly" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Animation\V2" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Canvas" />
+     <Folder Include="Assets\#Astra113" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Animation" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Scripts" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Assets" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
+     <Folder Include="Assets\Snowed Fence\Textures" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Prefab" />
+     <Folder Include="Assets\JMRSDK\Core\Resources\Animations" />
+     <Folder Include="Assets\Free Stylized Skybox\CubeMap" />
+     <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\rawData" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\AgoraEngine\Plugins\Android" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Managers" />
+     <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Materials" />
+     <None Include="Assets\JMRSDK\Input\Features\LaserPointer\Shader\GazeShader.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\KeyAnimation\V2" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Animation\CheckBoxItem" />
+     <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\SpaceBarAnimation" />
+     <Reference Include="UnityEngine">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="ColorSchemeManager">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Assets\Triangularity\ColorfulCity\Scripts\libs\ColorSchemeManager.dll</HintPath>
+     </Reference>
+     <Reference Include="JMRSDK">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Assets\JMRSDK\Core\Scripts\JMRSDK.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Assets\JMRSDK\Core\Plugins\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="JMRSDKUI">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Assets\JMRSDK\UI\Scripts\JMRSDKUI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Runtime">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TerrainTools">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TerrainTools.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:\Dhaneesh\UnityProjects\AnimalKingdom 2\AnimalKingdom\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
