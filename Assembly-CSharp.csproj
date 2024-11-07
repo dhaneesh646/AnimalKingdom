@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2021_3_25;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_25;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -103,7 +103,6 @@
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2\JMRUIPrimaryButton.cs" />
      <Compile Include="Assets\Scripts\QuizMAnager.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Helpers\JMRThemeConfigHelper.cs" />
-     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\CameraMovementManager.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts\JMR2DDropDown.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
@@ -271,7 +270,6 @@
      <None Include="Assets\JMRSDK\Input\Features\Cursor\Shaders\Cursor.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation" />
-     <Folder Include="Assets\Snowed Fence\FBX\fence_double.fbm" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI ProgressBar" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\TertiaryButton" />
      <None Include="Assets\JMRSDK\HoloToolKit MIT License.txt" />
@@ -279,7 +277,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders" />
      <Folder Include="Assets\JMRSDK\UI\Resources\Prefab\CustomButtons" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Textures" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\PrimaryButton" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX" />
      <None Include="Assets\JMRSDK\Core\Plugins\Android\ReadMe.txt" />
@@ -298,7 +295,6 @@
      <Folder Include="Assets\Triangularity\ColorfulCity\Documentation\Source_files" />
      <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\observer" />
      <Folder Include="Assets\Animals\jaguar" />
-     <Folder Include="Assets\Animals\lion-animation-low-poly\textures" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Textures" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\Radio Button" />
@@ -315,7 +311,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField" />
      <Folder Include="Assets\JMRSDK\Dialogue\Animations\JMRDialogueBox" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Animation\UIButton" />
-     <Folder Include="Assets\ModularFirstPersonController" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Interfaces" />
@@ -327,7 +322,6 @@
      <Folder Include="Assets\JMRSDK\Input\Features\Controller\Models\Materials" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2" />
      <Folder Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader\Material" />
-     <Folder Include="Assets\ModularFirstPersonController\FirstPersonController" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Font\font_JioType" />
      <Folder Include="Assets\Animals\model-31a-timber-rattlesnake" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -360,7 +354,6 @@
      <Folder Include="Assets\JMRSDK\UI\Resources\Prefab" />
      <Folder Include="Assets\Free Stylized Skybox\Panoramic" />
      <Folder Include="Assets\JMRSDK\Example\IPD_Panel" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\ProBuilder Data" />
      <Folder Include="Assets\JMRSDK\Example\Materials" />
      <Folder Include="Assets\JMRSDK\Animations\_PanelAnimation" />
      <Folder Include="Assets\AgoraEngine\Plugins" />
@@ -374,7 +367,6 @@
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Animals\Wolf\Animator" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\DataContainers" />
-     <Folder Include="Assets\Snowed Fence" />
      <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Battery" />
      <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Materials" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Scripts" />
@@ -405,7 +397,6 @@
      <Folder Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader\Shader" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Toggle\Scripts" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Animation\V2" />
-     <Folder Include="Assets\Animals\lion-animation-low-poly\source" />
      <Folder Include="Assets\JMRSDK\Dialogue\Animations" />
      <Folder Include="Assets\JMRSDK\Core" />
      <Folder Include="Assets\JMRSDK\UI\SO_Resources" />
@@ -416,7 +407,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\ScriptableObjects" />
      <Folder Include="Assets\Triangularity\ColorfulCity" />
      <Folder Include="Assets\Animals\white-tiger-rigged-animated" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Prefabs\V2" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -442,7 +432,6 @@
      <Folder Include="Assets\Free Stylized Skybox\CubeMap\Materials" />
      <Folder Include="Assets\Scenes\Materials" />
      <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Materials_final" />
-     <Folder Include="Assets\Snowed Fence\Materials" />
      <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Models" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown" />
      <Folder Include="Assets\JMRSDK\Input\Scripts\Utilities\Data" />
@@ -453,7 +442,6 @@
      <None Include="Assets\JMRSDK\Core\Resources\Shaders\BarrelDistortion.shader" />
      <Folder Include="Assets\AgoraEngine\Scripts\AgoraTools" />
      <Folder Include="Assets\Free Stylized Skybox\CubeMap\Textures" />
-     <Folder Include="Assets\Snowed Fence\FBX\fence_gate.fbm" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Helpers" />
      <Folder Include="Assets\AgoraEngine\Plugins\x86_64" />
      <Folder Include="Assets\JMRSDK\Dialogue\Prefabs" />
@@ -485,7 +473,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\RadioButtonV2" />
      <None Include="Assets\JMRSDK\Core\Resources\Shaders\RightHID.shader" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\VerticalGroup" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Materials" />
      <Folder Include="Assets\Free Stylized Skybox\Panoramic\Materials" />
      <None Include="Assets\JMRSDK\Core\Resources\Shaders\LeftHID.shader" />
      <Folder Include="Assets\Animals\sable-antelope-low-poly\textures" />
@@ -499,7 +486,6 @@
      <Folder Include="Assets\Animals\Wolf" />
      <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Prefabs" />
      <Folder Include="Assets\Animals\sable-antelope-low-poly\source" />
-     <Folder Include="Assets\Animals\lion-animation-low-poly\Materials" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Animation\V2\CloseTxt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
      <Folder Include="Assets\JMRSDK\Example\IPD_Panel\IPD_Scripts" />
@@ -539,7 +525,6 @@
      <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018" />
      <None Include="Assets\TextMesh Pro\Fonts\License.txt" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation\V2\JMRDialogueBox" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Textures\Prototype Grid" />
      <Folder Include="Assets\JMRSDK\Core\Resources\Materials" />
      <Folder Include="Assets\Triangularity\ColorfulCity\Materials" />
      <Folder Include="Assets\Triangularity\ColorfulCity\Scripts" />
@@ -550,9 +535,7 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation\V2" />
      <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools" />
      <Folder Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene" />
      <Folder Include="Assets\Astra113 Assets\Terrain Layers" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources" />
      <Folder Include="Assets\JMRSDK\Input\Features" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Animals\zebramotions\textures" />
@@ -562,7 +545,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\JMRSDK\Input\Features\Cursor" />
      <Folder Include="Assets\Animals\zebramotions\Materials" />
-     <Folder Include="Assets\Snowed Fence\FBX" />
      <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries" />
      <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Textures" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -575,7 +557,6 @@
      <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\PlatformAPI" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
-     <Folder Include="Assets\Snowed Fence\FBX\fence_single.fbm" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Animation\KeyAnimation\V2\SpaceBarAnimation" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI ScrollBar" />
@@ -583,7 +564,6 @@
      <Folder Include="Assets\Astra113 Assets" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <Folder Include="Assets\Astra113 Assets\Textures" />
-     <Folder Include="Assets\ModularFirstPersonController\DemoScene\Gridbox Prototype Materials\Resources\Materials\Prototype Grid" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\RadioButtonItem" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\JMRSDK\UI\Scripts\JMRSDKUI.deps.json" />
@@ -597,7 +577,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Scripts" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\Standard Toolkits\VoiceToolkit\Assets" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
-     <Folder Include="Assets\Snowed Fence\Textures" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\JMRSDK\Core\Plugins\DOTween\Modules" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Prefab" />
@@ -639,6 +618,12 @@
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
      <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
      <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -798,6 +783,9 @@
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
      <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
      <HintPath>D:\UnityFiles\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
