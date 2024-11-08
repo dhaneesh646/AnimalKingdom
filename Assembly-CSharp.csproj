@@ -132,7 +132,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts\JMRUIPrimaryCheckBoxButtonGroup.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Shaders\Scripts\JMRStandardShaderUtility.cs" />
-     <Compile Include="Assets\SceneManger.cs" />
+     <Compile Include="Assets\Scripts\SceneManger.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Scripts\CopyTransform.cs" />
      <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoTrackingExample.cs" />
@@ -162,7 +162,7 @@
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\JMRUIButton.cs" />
      <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoPlatformExample.cs" />
      <Compile Include="Assets\Triangularity\ColorfulCity\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\plyerfollower.cs" />
+     <Compile Include="Assets\Scripts\plyerfollower.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\IKeyboardInput.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\KeySwitcherHelper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -227,7 +227,7 @@
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Scripts\JMRGazeAndDwellKeyBoardSupport.cs" />
      <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoLocalRigExample.cs" />
      <Compile Include="Assets\JMRSDK\Example\Scripts\JMRDemoDisplayExample.cs" />
-     <Compile Include="Assets\InstructionPannel.cs" />
+     <Compile Include="Assets\Scripts\InstructionPannel.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Scripts\JMRSearchField.cs" />
      <Compile Include="Assets\AgoraEngine\Scripts\AgoraGamingSDK\tools\AgoraCallbackObject.cs" />
@@ -281,7 +281,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX" />
      <None Include="Assets\JMRSDK\Core\Plugins\Android\ReadMe.txt" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\JMRButton" />
-     <Folder Include="Assets\AgoraEngine\Plugins\x86" />
      <Folder Include="Assets\JMRSDK" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Font" />
@@ -305,7 +304,6 @@
      <Folder Include="Assets\JMRSDK\Input\Features\Cursor\Icon" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Effects" />
      <Folder Include="Assets\Animals\fox\source" />
-     <Folder Include="Assets\Animals\white-tiger-rigged-animated\Materials" />
      <Folder Include="Assets\JMRSDK\Example\Scenes" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\Manipulation\Scripts" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField" />
@@ -323,7 +321,6 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts\V2" />
      <Folder Include="Assets\JMRSDK\Core\Resources\Controller Rim Shader\Material" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\Font\font_JioType" />
-     <Folder Include="Assets\Animals\model-31a-timber-rattlesnake" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton\Scripts" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
@@ -378,7 +375,6 @@
      <Folder Include="Assets\JMRSDK\Dialogue\Sprite Sheet" />
      <Folder Include="Assets\Triangularity\ColorfulCity\Scripts\libs" />
      <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Meshes" />
-     <Folder Include="Assets\Animals\white-tiger-rigged-animated\textures" />
      <Folder Include="Assets\JMRSDK\Core\Resources\Models\PhoneController" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI CheckBoxButton" />
      <Folder Include="Assets\AgoraEngine" />
@@ -406,7 +402,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\ScriptableObjects" />
      <Folder Include="Assets\Triangularity\ColorfulCity" />
-     <Folder Include="Assets\Animals\white-tiger-rigged-animated" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI KeyBoard\Prefabs\V2" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Animation" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -443,7 +438,6 @@
      <Folder Include="Assets\AgoraEngine\Scripts\AgoraTools" />
      <Folder Include="Assets\Free Stylized Skybox\CubeMap\Textures" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\Helpers" />
-     <Folder Include="Assets\AgoraEngine\Plugins\x86_64" />
      <Folder Include="Assets\JMRSDK\Dialogue\Prefabs" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\ProgressBar" />
      <Folder Include="Assets\JMRSDK\UI\SO_Resources\Entries\Tracking" />
@@ -462,7 +456,6 @@
      <Folder Include="Assets\JMRSDK\Core\Resources\Models\JioGlassController\Materials" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <None Include="Assets\JMRSDK\Core\Resources\Shaders\JioGlassFOV.shader" />
-     <Folder Include="Assets\Animals\sable-antelope-low-poly" />
      <Folder Include="Assets\Images\AnimalImages" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\StandardAssets\FeatureAssets\Sprites\Spritesheet" />
@@ -475,17 +468,14 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\VerticalGroup" />
      <Folder Include="Assets\Free Stylized Skybox\Panoramic\Materials" />
      <None Include="Assets\JMRSDK\Core\Resources\Shaders\LeftHID.shader" />
-     <Folder Include="Assets\Animals\sable-antelope-low-poly\textures" />
      <Folder Include="Assets\JMRSDK\Emulator" />
      <Folder Include="Assets\Animals\Wolf\textures" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\JMRSDK\Input\Features\Controller" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Dialogue Box\Scripts" />
      <Folder Include="Assets\JMRSDK\Core\Resources\3D" />
-     <Folder Include="Assets\Animals\white-tiger-rigged-animated\source" />
      <Folder Include="Assets\Animals\Wolf" />
      <Folder Include="Assets\Astra113 Assets\YughuesFreeBushes2018\Prefabs" />
-     <Folder Include="Assets\Animals\sable-antelope-low-poly\source" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Animation\V2\CloseTxt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
      <Folder Include="Assets\JMRSDK\Example\IPD_Panel\IPD_Scripts" />
@@ -567,11 +557,9 @@
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI RadioButton\Animation\RadioButtonItem" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\JMRSDK\UI\Scripts\JMRSDKUI.deps.json" />
-     <Folder Include="Assets\Animals\lion-animation-low-poly" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI DropDown\Animation\V2" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Button\Scripts" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI Canvas" />
-     <Folder Include="Assets\#Astra113" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI SearchBar\Animation" />
      <Folder Include="Assets\JMRSDK\JMRToolkits\UX\UI InputField\Scripts" />
